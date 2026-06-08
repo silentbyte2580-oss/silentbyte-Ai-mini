@@ -1,0 +1,25 @@
+{
+  "name": "silentbyte-ai-mini",
+  "version": "2.0.2",
+  "description": "SilentByte AI Mini — Web Pairing Edition by Iconic Tech",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "queenruva-sockets": "latest",
+    "@hapi/boom": "^10.0.1",
+    "pino": "^8.15.0",
+    "axios": "^1.6.0",
+    "express": "^4.18.2",
+    "fs-extra": "^11.2.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["whatsapp", "bot", "silentbyte", "ai", "baileys"],
+  "author": "Iconic Tech",
+  "license": "MIT"
+}
